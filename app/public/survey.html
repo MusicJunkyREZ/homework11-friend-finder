@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Survey</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center">Survey</h1>
+            <hr>
+            <form>
+                <h3><strong>About You</strong></h3>
+                <fieldset class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name" id="name" name="name" required>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="photo">Link to Photo Image</label>
+                    <input type="text" class="form-control" placeholder="http://your-pic.jpg" id="photo" name="photo"
+                        required>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 1</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question1">Sleep is one of my favorite things to do.</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question1" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 2</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question2">I am more of an introvert han an extrovert.</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question2" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 3</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question3">I like to joke often.</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question3" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 4</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question4">I am very strong willed.</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question4" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 5</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question5">I like to do tasks slowly.</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question5" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 6</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question6"></label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question6" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 7</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question7">Q7</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question7" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 8</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question8">Q8</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question8" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 9</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question9">Q9</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question9" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <hr>
+                <h4><strong>Question 10</strong></h4>
+                <fieldset class="form-group">
+                    <label for="question10">Q10</label>
+                    <br>
+                    <div class="col-md-4">
+                        <select class="form-control" id="question10" name="scores[0]">
+                            <option>1 (Strongly Disagree)</option>
+                            <option>2 (Disagree)</option>
+                            <option>3 (Neutral)</option>
+                            <option>4 (Agree)</option>
+                            <option>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <input type="submit" class="btn btn-primary" data-target="#bestFriendModal" value="Show me a friend!" id="submit">
+
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/tables"></a>  <a href="/api/waitlist"></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- For the results -->
+    <div id="bestFriendModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h1 class="modal-title">Best Match</h1>
+                </div>
+                <div class="modal-body">
+                    <h2 id="bestFriendName"></h2>
+                    <img id="bestFriendImg" width=100px alt="Best Friend">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- 
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+
+    <script type="text/javascript">
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+            var userInput = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    $("#question1").val().trim(),
+                    $("#question2").val().trim(),
+                    $("#question3").val().trim(),
+                    $("#question4").val().trim(),
+                    $("#question5").val().trim(),
+                    $("#question6").val().trim(),
+                    $("#question7").val().trim(),
+                    $("#question8").val().trim(),
+                    $("#question9").val().trim(),
+                    $("#question10").val().trim(),
+                ]
+            };
+
+            // $("#bestFriendModal").modal()
+
+            // var currentUrl = window.location.origin
+
+            $.ajax({
+                method: "POST",
+                data: userInput,
+                url: "/api/friends",
+                success: function (data) {
+                    $("#bestFriendName").text(data.name)
+                    $("#bestFriendImg").attr("src", data.photo)
+                    // console.log(data.name, data.photo)
+                    $("#bestFriendModal").modal();
+
+                }
+            })
+
+            // $.post(currentUrl + "/api/friends/", userInput, function () {
+            //     $("#bestFriendName").text(data.name)
+            //     $("#bestFriendImg").attr("src", data.photo)
+            //     $("#bestFriendModal").show();
+            // })
+            // return false;
+        })
+    </script>
+
+
+</body>
+
+
+</html>

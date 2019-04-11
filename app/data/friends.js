@@ -1,0 +1,52 @@
+var friends = [
+    {
+     "name":"Lion",
+     "photo":"https://images.app.goo.gl/bMtd69uke8Cybdq27",
+     "scores":[
+        5,
+        6,
+        2,
+        7,
+        4,
+        8,
+        6,
+        4,
+        5,
+        2 
+    ]  
+    },
+    {
+    "name":"Bear",
+    "photo":"https://images.app.goo.gl/2UQSdddYReH8XkpJ6",
+    "scores":[
+        6,
+        3,
+        8,
+        6,
+        6,
+        2,
+        4,
+        6,
+        8,
+        9 
+    ]  
+    },
+    {
+    "name":"Monkey",
+    "photo":"https://images.app.goo.gl/FtKesKpifuHJuj2S=",
+    "scores":[
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        6,
+        5,
+        8,
+        4 
+    ]  
+    }
+]
+
+module.exports = friends;
