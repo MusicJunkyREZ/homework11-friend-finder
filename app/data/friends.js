@@ -3,47 +3,47 @@ var friends = [
      "name":"Lion",
      "photo":"https://images.app.goo.gl/bMtd69uke8Cybdq27",
      "scores":[
-        5,
-        6,
+        4,
+        3,
         2,
-        7,
-        4,
-        8,
-        6,
-        4,
         5,
-        2 
+        1,
+        2,
+        5,
+        4,
+        3,
+        5 
     ]  
     },
     {
     "name":"Bear",
     "photo":"https://images.app.goo.gl/2UQSdddYReH8XkpJ6",
     "scores":[
-        6,
-        3,
-        8,
-        6,
-        6,
-        2,
+        5,
         4,
-        6,
-        8,
-        9 
+        1,
+        5,
+        1,
+        3,
+        4,
+        5,
+        1,
+        3 
     ]  
     },
     {
     "name":"Monkey",
     "photo":"https://images.app.goo.gl/FtKesKpifuHJuj2S=",
     "scores":[
-        3,
-        4,
-        5,
         2,
-        7,
-        6,
-        6,
+        1,
         5,
-        8,
+        3,
+        2,
+        4,
+        2,
+        2,
+        5,
         4 
     ]  
     }
